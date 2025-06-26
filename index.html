@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador Harry Potter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Buscador de Personajes - Harry Potter</h1>
+
+  <div class="container">
+    <input type="text" id="inputbusqueda" placeholder="Ingresa el nombre del personaje...">
+    <select id="filtro_casa">
+      <option value="">Todas las casas</option>
+      <option value="Gryffindor">Gryffindor</option>
+      <option value="Slytherin">Slytherin</option>
+      <option value="Hufflepuff">Hufflepuff</option>
+      <option value="Ravenclaw">Ravenclaw</option>
+    </select>
+    <button id="boton_buscar">Buscar</button>
+  </div>
+
+  <div id="resultado_busqueda" class="resultado_buscar"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
